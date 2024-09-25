@@ -1,2 +1,2 @@
 @echo off
-echo keep-alive-92424
+PowerShell -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Hello, this is a popup message!')"
